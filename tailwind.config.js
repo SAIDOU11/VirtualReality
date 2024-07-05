@@ -5,11 +5,11 @@ export default {
     extend: {
       colors: {
         "blue-light-vr": "#00f5fa",
-        "blue-dark-vr": "#015169",
+        "blue-darker-vr": "#06b7ce",
       },
     },
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
+      noto: ["Noto Sans Mono", "monospace"],
     },
   },
   plugins: [],
