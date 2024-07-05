@@ -37,7 +37,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md text-sm">
+            <a href="#" className="py-2 px-3 border rounded-md ">
               Sign In
             </a>
             <a
@@ -65,12 +65,12 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
+              <a href="#" className="py-2 px-3 border rounded-md text-sm">
                 Sign In
               </a>
               <a
                 href="#"
-                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-red-600 font-bold "
+                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-red-600 font-bold text-sm"
               >
                 Create an account
               </a>
