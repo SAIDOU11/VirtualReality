@@ -65,12 +65,12 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md text-sm">
+              <a href="#" className="py-2 px-3 border rounded-md text-xs">
                 Sign In
               </a>
               <a
                 href="#"
-                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-red-600 font-bold text-sm"
+                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-red-600 font-bold text-xs"
               >
                 Create an account
               </a>
