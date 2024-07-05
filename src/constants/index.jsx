@@ -5,12 +5,12 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
+import EllieRoseWilkens from "../assets/images/profil/EllieRoseWilkens.jpg";
+import MarcelNikolic from "../assets/images/profil/MarcelNikolic.jpg";
+import MimiKeel from "../assets/images/profil/MimiKeel.jpg";
+import NabeelBradford from "../assets/images/profil/NabeelBradford.jpg";
+import RhodeDubois from "../assets/images/profil/RhodeDubois.jpg";
+import TracyGalindo from "../assets/images/profil/TracyGalindo.jpg";
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -21,39 +21,39 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
+    user: "Ellie Rose Wilkens",
     company: "Stellar Solutions",
-    image: user1,
+    image: EllieRoseWilkens,
     text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
   },
   {
-    user: "Jane Smith",
+    user: "Marcel Nikolic",
     company: "Blue Horizon Technologies",
-    image: user2,
+    image: MarcelNikolic,
     text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
   },
   {
-    user: "David Johnson",
+    user: "Mimi Keel",
     company: "Quantum Innovations",
-    image: user3,
+    image: MimiKeel,
     text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
   },
   {
-    user: "Ronee Brown",
+    user: "Nabeel Bradford",
     company: "Fusion Dynamics",
-    image: user4,
+    image: NabeelBradford,
     text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
   },
   {
-    user: "Michael Wilson",
+    user: "Rhode Dubois",
     company: "Visionary Creations",
-    image: user5,
+    image: RhodeDubois,
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
-    user: "Emily Davis",
+    user: "Tracy Galindo",
     company: "Synergy Systems",
-    image: user6,
+    image: TracyGalindo,
     text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
   },
 ];
