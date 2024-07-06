@@ -70,7 +70,7 @@ const Navbar = () => {
               </a>
               <a
                 href="#"
-                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-red-600 font-bold text-xs"
+                className="bg-gradient-to-r from-blue-light-vr to-blue-darker-vr py-2 px-3 rounded-md text-black font-bold text-xs"
               >
                 Create an account
               </a>
