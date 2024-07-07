@@ -3,8 +3,8 @@ import video2 from "../assets/videos/video2.mp4";
 
 const Hero = () => {
   return (
-    <>
-      <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <div>
+      <div className="flex flex-col items-center mt-10 sm:mt-14 lg:mt-20 ">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           VR build tools
           <span className="bg-gradient-to-r from-blue-light-vr to-blue-500 text-transparent bg-clip-text">
@@ -48,7 +48,7 @@ const Hero = () => {
           Your browser doesn't allow the video tag.
         </video>
       </div>
-    </>
+    </div>
   );
 };
 
