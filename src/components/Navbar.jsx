@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
           </div>
           {openNav && (
-            <div className="fixed right-0 z-20 h-screen w-full bg-[#121212]  flex flex-col justify-center items-center lg:hidden ">
+            <div className="fixed right-0 z-20 my-0 h-full w-full bg-[#121212]  flex flex-col justify-center items-center lg:hidden ">
               <ul className="w-full h-1/2 text-center  ">
                 {navItems.map((item, index) => (
                   <li key={index} className="py-6 text-2xl">
